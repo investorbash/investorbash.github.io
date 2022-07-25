@@ -1,0 +1,168 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+p a {
+  position: sticky;
+  top: -2rem;
+  z-index: 1;
+  margin-top: 1rem;
+}
+#col ul li {
+  text-align: end;
+  list-style-type: none;
+  line-height: 2;
+}
+
+#clo ul li {
+  list-style-type: none;
+  line-height: 30px;
+}
+
+#clo ul li a {
+  color: gray;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+#col ul li a {
+  text-decoration: none;
+  color: gray;
+  font-weight: 700;
+}
+
+.card {
+  border: none;
+}
+
+.cont {
+  font-weight: 900;
+  font-size: 20px;
+  float: right;
+}
+.cont a {
+  color: black;
+  text-decoration: none;
+  margin-right: 5rem;
+}
+
+#conta h5 {
+  margin-top: 6rem;
+  font-size: 1rem;
+}
+
+#conta h3 {
+  font-size: 2rem;
+}
+#conta p {
+  font-size: 1.5rem;
+}
+#conta a {
+  text-decoration: none;
+  font-family: monospace;
+}
+.container .row img {
+  max-height: 50vh;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+/* img[src="img/096A1926.png"]{
+    height: 50vh;
+    width: 100%
+} */
+
+.carousel-inner p {
+  font-size: 25px;
+}
+
+#fluid {
+  background-color: #6698cf;
+  height: 40vh;
+  color: white;
+  margin-top: 5rem;
+  overflow-y: hidden;
+  padding: 3rem;
+  margin-bottom: 3rem;
+}
+
+#fluid h3 {
+  font-size: 2rem;
+}
+
+#cat {
+  text-align: center;
+}
+
+#cat img {
+  width: 100%;
+  transition: transform 450ms;
+}
+
+#cat img:hover {
+  transform: scale(1.1);
+}
+
+#cat h5 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+#cat h5:hover {
+  color: #6698cf;
+}
+
+#cat p {
+  color: grey;
+}
+
+#cat .row {
+  margin-bottom: 3rem;
+}
+
+footer {
+  background-color: #6698cf;
+  height: 40vh;
+  padding: 1.8rem;
+  color: white;
+  overflow-y: hidden;
+}
+
+#asp {
+  margin-bottom: 3rem;
+}
+
+#asp p {
+  font-weight: 600;
+  font-size: 2.1rem;
+}
+
+/* footer */
+footer a {
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+  line-height: 30px;
+  transition: 300ms;
+}
+
+footer a:hover {
+  transform: translate(5px, 20px);
+}
+
+footer a i:hover {
+  padding-right: 30px;
+  transform: translate(5px, 20px);
+}
+
+.last {
+  height: 4vh;
+  padding-left: 2rem;
+}
+
+.last i {
+  float: right;
+  padding-right: 2rem;
+}

@@ -1,0 +1,218 @@
+body{
+    background: #111;
+    overflow-x: hidden;
+}
+
+@media screen and (max-width:992px){
+    #nava{
+        background: #111;
+}
+}
+
+@media (max-width:992px){
+#navb{
+    position: relative;
+    left: 400px;
+    top: -35px;  
+}   
+}
+
+#Apply{
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    color: black;
+}
+
+#press{
+    margin-right: 10px;
+    border-radius: 5px;
+    color: white;
+    background: red;
+}
+
+#Apply:hover{
+    background: black;
+    color: white;
+}
+#press:hover{
+   color: black;
+}
+
+#sicon{
+    position: relative;
+    top: 5px;
+    right: -5px;
+    font-size: 20px;
+}
+
+@media screen and (max-width:992px){
+    #Apply{
+        max-width: 100%; 
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: black;
+        text-align: center;
+    }
+    #press{
+        max-width: 97%;
+        text-align: center;
+        position: relative;
+        left: 4px;
+    }
+    #sicon{
+        display: none;
+    }
+    #eng{
+        border: 1px solid grey;
+        text-align: center;
+        border-radius: 10px;
+        max-width: 50%;
+    }
+    #eng:hover{
+        color: white;
+        background: black;
+    }
+    #nig{
+        border: 1px solid grey;
+        text-align: center;
+        border-radius: 10px;
+        max-width: 50%;
+        position: relative;
+        left: 15.3rem;
+        bottom: 2.7rem;  
+    }
+    #nig:hover{
+       color: white;
+        background: black;
+    }
+}
+
+#cont{
+    background-image: url(img/netflix.jpg);
+    width: 100%;
+    padding-top: 6.25rem;
+    padding-bottom: 6.25rem;
+}
+
+#cont h2{
+    color: white;
+    text-align: center;
+    
+}
+
+#inp input{
+    position: relative;
+    left: 26rem;
+    height: 2.5rem;
+    width: 30rem;
+    background: none;
+    border: 1px solid grey;
+    border-radius: 5px;
+    outline: none;
+    color: white;
+    text-align: center;
+}
+
+@media screen and (max-width:992px){
+    #inp input{
+        position: relative;
+        left: 1rem;
+        max-width: 95%;
+        margin-top: 1rem;
+        text-align: center;
+    }
+}
+
+#cover{
+    color: white;
+    padding: 30px 40px  0px;
+}
+
+#btng{
+    word-spacing: 10px;
+    margin-left: 25px;
+    margin-top: 30px;  
+}
+@media screen and (max-width:992px){
+    #btng{
+        line-height: 60px;
+    }
+}
+
+hr{
+    border: 0.1px solid grey;
+}
+
+.col-sm-12 p{
+    color: white;
+}
+
+.col-sm-12 p,.scale:hover{
+    transform: scale(1.08);
+}
+
+@media screen and (max-width:992px){
+    #more{
+        text-align: center;
+}
+    .col-sm-12 p{
+       margin-left: 2rem;
+}
+}
+
+#mast{
+    color: white;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+#mast h5{
+    font-size: 0.8rem;
+}
+
+#mast button{
+    color: white;
+}
+
+#mast b{
+    line-height: 2rem;
+}
+
+#batch{
+    background-image: url(img/She1.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 15px 20px;
+}
+#bash{
+    background-image: url(img/She1.jpg);
+     background-repeat: no-repeat;
+     width: 100%;
+     padding: 15px 20px;
+}
+#kraft{
+    background-image: url(img/She2.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 15px 20px;   
+}
+
+#kalsi{
+    background: url(img/She3.png);
+    width: 100%;
+    padding: 4rem 10rem;
+    color: white;
+    text-align: end;
+}
+
+#footer a{
+    display: block; 
+    color: white;
+    font-size: 13px;
+    line-height: 2rem;
+}
+
+#footer .footer1{
+    font-size: 10px;
+}

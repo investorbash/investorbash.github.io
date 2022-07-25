@@ -1,0 +1,300 @@
+body{
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 768px){
+    body{
+        overflow-x: hidden;
+    }
+}
+    
+
+#container{
+    word-spacing: 3px;   
+}
+
+#container a{
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+    font-size: 17px
+}
+
+#container a:hover{
+    color: grey;
+    border-bottom: 3px solid white;
+}
+
+.val{
+    position: relative;
+    left: 10rem;     
+}
+
+.lue{
+ position: relative;
+    left: 20rem;
+}
+
+.double{
+    background: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+@media screen and (max-width:992px){
+    #container{
+        display: none;       
+    }
+    #cont{
+        display: none;
+}
+}
+
+#row{
+    display: flex;
+    max-width: 80%;
+    color: black;
+    background: white;
+     padding: 20px 50px;
+    border-radius: 50px;
+    margin-left: 80px;
+}
+
+#row input{
+    border: none;
+    outline: none;  
+}
+
+#row i{
+    background: #F7475B;
+    padding: 10px;
+    margin-left: -20px;
+    border-radius: 50px;
+}
+
+.mobile input{
+    height: 50px;
+    width: 100%;
+    border: none;
+    border-radius: 30px;
+    position: relative;
+    top: 20px;   
+}
+
+@media screen and (min-width:992px){
+    .mobile input{
+        display: none;
+    }
+}
+
+
+
+/*#react{
+    display: flex;
+    color: black;
+    background-color: white;
+    padding: 20px;
+    width:90%;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+#react label{
+    z-index: 1;
+    max-width: 20%
+}
+
+#react input{
+    position: relative;
+    bottom: -10px;
+    right: 70px;
+    border: none;
+    outline: none;
+    max-width: 20%; 
+}
+#react i{
+    color: white;
+    background: #F7475B;
+    padding: 10px;
+    border-radius: 360px;
+}*/
+
+#ref{
+    text-align: center;
+    margin-top: 50px;
+    background-color: #f7475b;
+    height:350px;
+    max-width: 90%;
+    border-radius: 20px;
+    color: white;
+}
+
+.center{
+    position: relative;
+    top: 40%;
+}
+ 
+.center button{
+    background: none;
+}
+
+.indig{
+    background-image: url(img/er.png);
+     height: 100vh;
+    max-width: 100%;
+    position: relative;
+    top: 3rem;
+}
+
+.inec{
+    position: relative;
+    top: 30rem;
+    color: white;
+    text-align: center;
+}
+.inec button{
+    background: white;
+    font-size: 20px;
+    font-weight: 900;
+    color: purple;
+    border-radius: 30px;
+}
+
+#tainer{
+   margin-top: 12rem;
+}
+
+.name{
+    background-color: #DF3F51;
+    height:50vh;
+    border-radius:20px;
+    color: white;
+    position: relative;
+    top: 3rem;
+}
+
+.name h3{
+    padding: 5px;
+    font-weight: 700;
+}
+
+.name p{
+    margin-left: 10px;
+}
+
+.name img{
+    height: 10rem;
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+@media screen and (max-width:992px){
+    .name{
+        margin-top: 1rem;
+    }
+}
+
+#tain{
+    position: relative;
+    top: 5rem;
+}
+
+#roi{
+    position: relative;
+    top: 5rem;
+}
+
+#roi img{
+    border-radius: 20px;
+    width: 100%;
+}
+
+@media screen and (max-width:992px){
+    #roi img{
+        margin-top:2rem ;
+    } 
+}
+
+#etex{
+    width: 100%;
+    position: relative;
+    top: 10rem;
+}
+
+/*NAV TAB*/
+#lovena{
+    position: relative;
+    top: 4rem;
+}
+.blk a{
+    text-decoration: none;
+    color: black;
+}
+
+.gry a{
+    text-decoration: none;
+    color: grey;
+}
+
+#collect{
+    background: #F7F7F7;  
+}
+
+#foo{
+    margin-top: 5rem;
+    padding: 1rem;
+}
+
+#foo a{
+    color: black;
+    text-decoration: none;
+    font-size: 15px
+}
+
+#foo a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    text-align: center;
+    border-top: 1px solid grey;
+    
+}
+
+.spss{
+    font-size: 15px;
+    word-spacing: 5px;
+}
+
+footer a{
+    color: black;
+}
+
+#zorin {
+  text-align: center;
+    font-size: 2rem;
+    word-spacing: 2rem;
+    margin-top: 1rem; 
+    display: none;
+}
+
+#zorin a{
+    color: grey;
+}
+
+@media screen and (max-width:992px){
+    #zorin{
+        display: inline-block;
+        position: sticky;
+        bottom: 0px;
+        background: white;
+    }
+
+    #zorin i:hover{
+        color: #F7475B;
+
+    }
+} 
+
+

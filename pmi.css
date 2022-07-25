@@ -1,0 +1,102 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden; 
+}
+p a{
+    position: sticky;
+    top: -2rem;
+    z-index: 1;
+    margin-top: 1rem; 
+}
+#col ul li {
+    text-align:end;
+   list-style-type: none;
+    line-height: 2;
+}
+
+#clo ul li{
+    list-style-type: none;
+    line-height: 30px;
+}
+
+#clo ul li a{
+    color: gray;
+    font-weight: 700;
+    text-decoration: none;
+    
+}
+
+#col ul li a{
+    text-decoration: none;
+    color: gray;
+    font-weight: 700;
+}
+
+.card{
+    border: none;
+}
+
+.cont{
+    font-weight: 900;
+    font-size: 20px;
+    float: right;
+}
+.cont a{
+    color: black;
+    text-decoration: none;
+    margin-right: 5rem;
+}
+
+#conta{
+    
+}
+
+#conta h5{
+    margin-top: 8rem;
+} 
+
+#conta h3{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+#conta p{
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    font-family: sans-serif;
+}
+
+#sec .row{
+    
+    
+}
+
+footer{
+    background-color: #6698CF;
+    height: 40vh;
+    padding: 1.8rem; 
+    color: white; 
+    overflow-y: hidden;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    line-height: 30px;
+}
+footer a i:hover{
+    padding-right: 30px;
+}
+
+.last{
+    height: 4vh;
+    padding-left: 2rem;
+}
+
+.last i{
+    float: right;
+    padding-right: 2rem;
+}

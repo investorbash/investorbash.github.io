@@ -1,0 +1,151 @@
+*{
+    box-shadow: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #111;
+}
+
+#fluid{  
+    margin: 1rem;
+     display: inline-block;
+     max-width: 100%;
+    position: fixed;
+    top: 0.1rem;
+     
+ }
+ 
+ #fluid img{
+     height: auto;
+     width: 10%;
+     
+ }
+ 
+ #fluid button{
+     float: right;
+     margin-left: 1rem;
+ }
+ #fluid span{
+     position: relative;
+     left: 45rem;
+ }
+ @media  screen and (max-width: 768px){
+     #fluid span{
+         display: none;     }
+     #fluid img{
+         width: 30%;
+     }
+ }
+ 
+ @media  screen and (min-width: 768px){
+     #fluid img{
+         width: 15%;
+     }
+     #fluid button{
+         position: relative;
+         left: 30rem; 
+     }
+ }
+ 
+ #blur{
+     opacity: 0.1 
+ }
+     
+
+.title{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    font-weight: 900;
+    margin-top: 3rem;
+}
+
+.tittle{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    font-weight: 900;
+    margin-top: 2rem;
+}
+
+
+.column{
+    width: 100%;
+    object-fit: contain;
+    max-height: 6rem;
+    margin-right: 0.625rem;
+    transition: transform 450ms;
+}
+
+.row_p{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 1.25rem;
+}
+
+.column:hover{
+    transform: scale(2.0) 
+}
+
+.row_p::-webkit-scrollbar{
+    display: none;
+}
+
+.row{
+    color: white;
+}
+
+#alm{
+    text-align: center;
+    color: white;
+
+    
+}
+#alm h2{
+    font-size: 45px;
+    
+    
+}
+#alm p{
+    font-family: arial;
+    font-weight: 900;
+    padding: 1rem;
+}
+
+.flex-container a{
+  display: block;
+    text-decoration: none;
+    color: grey;
+    line-height: 2rem;
+    font-size: small;
+  
+}
+
+.flex-container a:hover{
+    text-decoration: underline;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 15px;
+    padding: 10px;
+}
+
+.flex-item-left {
+  padding: 5px;
+  flex: 3%;
+}
+
+.flex-item-right {
+    padding: 5px;
+  flex: 3%;
+}
+
+@media (max-width: 800px) {
+  .flex-item-right, .flex-item-left {
+    flex: 100%;
+  }
+}
