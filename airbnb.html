@@ -51,25 +51,25 @@
             <div id="row">
                 <div class="col-md-3">
                     <div>location</div>
-                    <input type="text" placeholder="Where are you going?">
-                    <span id="inp1"></span>
+                    <input type="text" id="inip1" onkeypress="val()" placeholder="Where are you going?">
+                    <span id="pan1"></span>
                 </div>
                 <div class="col-md-3">
                     <div>Check in</div>
-                    <input type="text" placeholder="Add dates">
-                    <span id="inp2"></span>
+                    <input type="text" id="inip2" onkeypress="val()" placeholder="Add dates">
+                    <span id="pan2"></span>
                 </div>
                 <div class="col-md-3">
                     <div>Check out</div>
-                    <input type="text" placeholder="Add dates">
-                    <span id="inp3"></span>
+                    <input type="text" id="inip3" onkeypress="val()" placeholder="Add dates">
+                    <span id="pan3"></span>
                 </div>
                 <div class="col-md-3">
                     <div>Guests</div>
-                    <input type="text" placeholder="Add guests">
-                    <span id="inp4"></span>
+                    <input type="text" id="inip4" onkeypress="val()" placeholder="Add guests">
+                    <span id="pan4"></span>
                 </div>
-                <i class="bi bi-search"></i>
+                <i class="bi bi-search" onclick="val()" style="cursor: pointer;"></i>
             </div>
         </div>
 
@@ -315,6 +315,35 @@
             </div>
         </div>
     </div>
+    <script>
+        function val(){
+            var x = /^[A-Za-z.\s_-]+$/;
+            var a = document.getElementById("inip")
+            var d = document.getElementById("inip1")
+            var b = document.getElementById("inip2")
+            var c = document.getElementById("inip3")
+            if(a.match(x)){
+                document.getElementById("pan1").innerHTML = "green";
+                return false;
+            }
+            
+            if(b.match(x)) {
+                document.getElementById("pan2").innerHTML = "green";
+                return false;
+           
+            if(c.match(x)){
+                document.getElementById("pan3").innerHTML = "green";
+                return false;
+            }
+            
+            if(d.match(x)){
+                document.getElementById("pan4").innerHTML= "green";
+                return false;
+            }
+            return true;
+            
+        }
+    </script>
 </body>
 
 </html>
